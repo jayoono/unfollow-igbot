@@ -3,7 +3,7 @@ from keys_ig import *
 from InstagramAPI import InstagramAPI
 import csv
 
-api = InstagramAPI(USERNAME, PASS)
+api = InstagramAPI(holyveill, rennie74g)
 api.login()
 user_id = api.username_id
 
